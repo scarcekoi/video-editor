@@ -1,4 +1,4 @@
-use video_editor::app_info;
+mod app_info;
 
 fn main() {
     println!("{}", app_info::NAME);
